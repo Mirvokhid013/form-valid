@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F7F6F3;
+}
+
+span {
+    display: block;
+}
+
+.container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper {
+    padding-top: 96px;
+    padding-bottom: 86px;
+}
+
+.block__title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #413529;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 71.8px;
+}
+
+.block__link {
+    display: block;
+    margin-bottom: 51px;
+    color: #413529;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.block__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 72px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    width: 540px;
+    height: 640px;
+}
+
+.card__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.card__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #5C5C5C;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card__inner {
+    display: flex;
+    column-gap: 30px;
+}
+
+.card__left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.card__right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    width: 179px;
+    justify-content: space-between;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 60px;
+    border-left: 1px solid #000;
+    background-color: #fff;
+    width: 828px;
+    height: 690px;
+}
+
+.form__title {
+    margin-bottom: 64px;
+    color:  #413529;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+input, textarea {
+    display: block;
+    width: 708px;
+    padding: 20px;
+    border: 0.5px solid #B6B6B6;
+}
+
+.form__area {
+    padding: 20px 20px 70px;
+}
+
+input::placeholder {
+    color:  #A7A7A7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.form__area::placeholder {
+    color:  #A7A7A7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+button {
+    color:  #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 120%;
+    background-color: #94785d;
+    border: 0;
+    padding: 20px;
+}
